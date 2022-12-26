@@ -66,6 +66,7 @@
             this.Display1.Size = new System.Drawing.Size(427, 36);
             this.Display1.TabIndex = 0;
             this.Display1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.Display1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Event_Keypress);
             // 
             // Display_panel
             // 

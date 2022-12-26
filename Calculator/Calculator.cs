@@ -148,5 +148,63 @@ namespace Calculator
                 ClearCE();
             }
         }
+
+        private void Event_Keypress(object sender, KeyPressEventArgs e)
+        {
+            switch (e.KeyChar.ToString())
+            {
+                case "0":
+                    btn0.PerformClick();
+                    break;
+                case "1":
+                    btn1.PerformClick();
+                    break;
+                case "2":
+                    btn2.PerformClick();
+                    break;
+                case "3":
+                    btn3.PerformClick();
+                    break;
+                case "4":
+                    btn4.PerformClick();
+                    break;
+                case "5":
+                    btn5.PerformClick();
+                    break;
+                case "6":
+                    btn6.PerformClick();
+                    break;
+                case "7":
+                    btn7.PerformClick();
+                    break;
+                case "8":
+                    btn8.PerformClick();
+                    break;
+                case "9":
+                    btn9.PerformClick();
+                    break;
+                case "=":
+                    Equal.PerformClick();
+                    break;
+                case "+":
+                    add.PerformClick();
+                    break;
+                case "-":
+                    rem.PerformClick();
+                    break;
+                case "*":
+                    plus.PerformClick();
+                    break;
+                case "/":
+                    devide.PerformClick();
+                    break;
+                case ".":
+                    btndot.PerformClick();
+                    break;
+                default:
+                    Equal.PerformClick();
+                    break;
+            }
+        }
     }
 }
