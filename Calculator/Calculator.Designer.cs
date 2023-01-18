@@ -322,6 +322,8 @@
             this.ClientSize = new System.Drawing.Size(482, 753);
             this.Controls.Add(this.Number_panel);
             this.Controls.Add(this.Display_panel);
+            this.MaximumSize = new System.Drawing.Size(500, 800);
+            this.MinimumSize = new System.Drawing.Size(500, 800);
             this.Name = "Calculator";
             this.Text = "Calculator";
             this.Display_panel.ResumeLayout(false);
